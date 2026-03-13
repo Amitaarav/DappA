@@ -1,6 +1,6 @@
 # SolBridge – Production-Ready Solana DApp
 
-SolBridge is a high-performance, visually stunning Solana Web3 dashboard. Transformed from a basic prototype into a professional-grade application, it features a premium "Glassmorphism" dark theme, a centralized service architecture, and robust state management.
+SolMit is a high-performance, visually stunning Solana Web3 dashboard. Transformed from a basic prototype into a professional-grade application, it features a premium "Glassmorphism" dark theme, a centralized service architecture, and robust state management.
 
 ## 🚀 Features
 
