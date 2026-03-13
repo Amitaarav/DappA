@@ -29,10 +29,10 @@ function App() {
             <nav className="flex items-center justify-between py-6 max-w-6xl mx-auto backdrop-blur-md sticky top-0 z-50">
               <div className="flex items-center gap-3 group cursor-pointer">
                 <div className="w-10 h-10 bg-gradient-to-br from-solana-green to-solana-purple rounded-xl flex items-center justify-center text-white font-black text-xl shadow-lg group-hover:rotate-12 transition-transform animate-float">
-                  S
+                  Sol
                 </div>
                 <div>
-                  <h1 className="text-2xl font-black text-gradient tracking-tight">SolBridge</h1>
+                  <h1 className="text-2xl font-black text-gradient tracking-tight">SolMit</h1>
                   <p className="text-[10px] text-text-dim uppercase tracking-widest font-bold opacity-70">Solana Nexus</p>
                 </div>
               </div>
@@ -73,7 +73,7 @@ function App() {
 
               {/* Send & Sign - Right Column */}
               <div className="lg:col-span-7 space-y-8">
-                <Swap network={network} />
+                {/* <Swap network={network} /> */}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-8">
                   <SendTokens />
                   <SignMessage />
@@ -88,7 +88,7 @@ function App() {
                   <div className="h-2 w-2 rounded-full animate-pulse" style={{ backgroundColor: network.color }} />
                   <span className="text-xs font-bold tracking-widest uppercase">{network.name} Status: Operational</span>
                 </div>
-                <p>© 2026 SolBridge Nexus. All rights reserved.</p>
+                <p>© 2026 SolMit Nexus. All rights reserved.</p>
               </div>
             </footer>
             <Toaster position="bottom-right" reverseOrder={false} />
